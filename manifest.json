@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Ore And Tree Vein Miner By RisabGamerz",
+        "description": "Crouch to mine connected ore blocks.",
+        "uuid": "f7a3d2de-9f3a-44ea-8a7c-cc2ed9f0e971",
+        "version": [1, 9, 4],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Ore and tree miner Script",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "c1d8f6e2-0e4b-4a21-9b58-1b06b5c273ac",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": [1, 0, 0]
+        }
+    ]
+}
